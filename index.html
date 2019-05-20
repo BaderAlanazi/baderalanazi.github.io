@@ -1,3 +1,192 @@
-<hmtl>
-<body>Hello World!</body>
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Project Experience</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Bader Alanazi</h1>
+            <h2>Fresh Graduate Portfolio</h2>
+            <a href="https://drive.google.com/file/d/1E9XTaBCMou3X_P0JitBLhjd7WEZgsn6V/view?usp=sharing" class="btn-rounded-white">View Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        Performance-oriented individual with a bachelor degree in Computer Information Systems from Missouri State University. I am looking to utilize my knowledge to develop and implement web applications. I have excellent time management skills, self-motivated, reliable and hardworking person. I am always eager to learn new things and solve problems. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>Missouri State University</h3>
+            <span class="education-date">May - 2019</span>
+            <h4>Springfield, MO, United States</h4>
+            <ul>
+                <li>
+                    BA in Computer Information Systems
+                </li>
+                <li>
+                    GPA: 2.56
+                </li>
+            </ul>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Project Experience</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project_1_cis370.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <a href="/cis370_project"><h3>The Greate Race (CIS370)</h3></a>
+                        <p>
+                            Used browser object model to reference objects on a page. Used trapping events to create and manage timers and intervals.
+                            Manuplated attributes of HTML elements using JavaScript.
+                            Used JavaScript variables and selection control structures.
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project_2_cis475.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <a href="/cis475_project"><h3>Asynchronous Login Page (CIS475)</h3></a>
+                        <p>
+                            Utilized PHP, JavaScript, MySQL, AJAX to plan, design, and implement a web application.
+                            Demonstrated HTML, CSS, Bootstrap knowledge to create an asynchronous login page.
+                            Created dynamic and interactive webpages that deals with database CRUD, session variables/cookies, and secure pages.
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>CSS3</li>
+            <li>PHP</li>
+            <li>MySQL</li>
+            <li>Ajax</li>
+            <li>C#</li>
+            <li>Ms. Office Suite</li>
+            <li>Bootstrap</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2019 Bader Alanazi
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/BaderAlanazi" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+
+                        <li>
+                            <a href="https://linkedin.com/Bader-Alanazi" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
 </html>
